@@ -1,2 +1,2 @@
-FROM php:7.4-apache
-COPY index.php /var/www/html/
+FROM php:apache
+COPY *.php /var/www/html/
